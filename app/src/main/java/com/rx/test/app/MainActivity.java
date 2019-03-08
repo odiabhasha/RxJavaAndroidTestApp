@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //https://github.com/ReactiveX/RxJava/wiki/Creating-Observables
+        //https://mindorks.com/course/learn-rxjava/chapter/id/2/page/id/8
     }
 
     public void clickObservable(View view) {
